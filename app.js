@@ -11,5 +11,5 @@ if (array) {
   console.log(array);
 }
 
-const a = { ...array };
+const a = [...array];
 console.log('a:', a);
