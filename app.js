@@ -10,3 +10,6 @@ console.log(array);
 if (array) {
   console.log(array);
 }
+
+const a = { ...array };
+console.log('a:', a);
